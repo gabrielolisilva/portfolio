@@ -1,2 +1,2 @@
-# Curriculo
- Meu currículo
+# Projetos
+ Meus principais projetos
