@@ -1,0 +1,89 @@
+@charset 'UTF-8';
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 480px) {
+    header{
+        width: 100vw;
+        background-image: url("../imagens/programacao.jpg");
+        background-position: center center;
+        height: 220px;
+    }
+    
+    #textosHeader{
+        padding-top: 45px;
+        padding-left: 35px;
+        color: white;
+    }
+    
+    #icons{
+        margin-top: 10px;
+    }
+    
+    #icons i{
+        padding-right: 10px;
+    }
+    
+    #textosHeader h3:last-child{
+        margin-top: 10px;
+    }
+    
+    main{
+        margin-top: 18px;
+    }
+    
+    #trajetoria{
+        text-align: center;
+    }
+    
+    #trajetoria h1{
+        font-size: 1.6em;
+    }
+    
+    #trajetoria img{
+        width: 110px;
+        margin-top: 15px;
+        border-radius: 50%;
+        padding-bottom: 15px;
+    }
+
+    #trajetoria p{
+        margin: auto;
+        text-align: justify;
+        max-width: 350px;
+    }
+
+    #projetos{
+        text-align: center;
+        margin-top: 18px;
+    }
+
+    #projetos h1{
+        font-size: 1.6em;
+        padding-bottom: 18px;
+    }
+
+    .projetoExemplos{
+        margin: auto;
+        margin-bottom: 18px;
+        max-width: 260px;
+        height: 159px;
+        background-color: rgb(8, 114, 175);
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .projetoExemplos img{
+        padding-top: 5px;
+        width: 250px;
+    }
+
+    .projetoExemplos a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
