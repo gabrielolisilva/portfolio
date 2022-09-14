@@ -87,6 +87,11 @@
         justify-content: space-around;
     }
 
+    #blocoProjetos3{
+        display: flex;
+        justify-content: space-around;
+    }
+
     #projetos h1{
         text-align: center;
         font-size: 2.2em;
@@ -191,6 +196,11 @@
     }
 
     #blocoProjetos2{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #blocoProjetos3{
         display: flex;
         justify-content: space-around;
     }
@@ -305,6 +315,11 @@
         justify-content: space-around;
     }
 
+    #blocoProjetos3{
+        display: flex;
+        justify-content: space-around;
+    }
+
     #projetos h1{
         text-align: center;
         font-size: 2.2em;
@@ -415,6 +430,11 @@
         justify-content: space-around;
     }
 
+    #blocoProjetos3{
+        display: flex;
+        justify-content: space-around;
+    }
+
     #projetos h1{
         text-align: center;
         font-size: 2.2em;
@@ -520,6 +540,10 @@
     }
 
     #blocoProjetos2{
+        display: block;
+    }
+
+    #blocoProjetos3{
         display: block;
     }
 
