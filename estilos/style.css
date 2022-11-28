@@ -1,570 +1,594 @@
 @charset 'UTF-8';
 
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
 @media screen and (min-width: 1441px) {
-    html{
-        overflow-x: hidden;
-    }
+  html {
+    overflow-x: hidden;
+  }
 
-    header{
-        width: 100vw;
-        background-image: url("../imagens/programacao.jpg");
-        background-position: center left;
-        height: 270px;
-    }
-    
-    #textosHeader{
-        padding-top: 65px;
-        padding-left: 70px;
-        color: white;
-    }
+  header {
+    width: 100vw;
+    background-image: url("../imagens/programacao.jpg");
+    background-position: center left;
+    height: 270px;
+  }
 
-    #textosHeader h1{
-        font-size: 2.6em;
-    }
+  #textosHeader {
+    padding-top: 65px;
+    padding-left: 70px;
+    color: white;
+  }
 
-    #textosHeader h3{
-        font-size: 1.4em;
-    }
-    
-    #icons{
-        margin-top: 10px;
-    }
-    
-    #icons i{
-        padding-right: 10px;
-        color: white;
-    }
-    
-    #textosHeader h3:last-child{
-        margin-top: 10px;
-    }
-    
-    main{
-        margin-top: 18px;
-    }
-    
-    #trajetoria h1{
-        text-align: center;
-        font-size: 2.2em;
-    }
+  #textosHeader h1 {
+    font-size: 2.6em;
+  }
 
-    #trajetoriaCorpo{
-        display: flex;
-        justify-content: space-around;
-        justify-items: center;
-        margin-top: 18px;
-    }
-    
-    #trajetoriaCorpo img{
-        width: 500px;
-        height: 500px;
-        margin-top: 15px;
-        border-radius: 50%;
-        padding-bottom: 15px;
-    }
+  #textosHeader h3 {
+    font-size: 1.4em;
+  }
 
-    #trajetoriaCorpo p{
-        text-align: justify;
-        max-width: 550px;
-        font-size: 1.4em;
-    }
+  #icons {
+    margin-top: 10px;
+  }
 
-    #projetos{
-        margin-top: 18px;
-    }
+  #icons i {
+    padding-right: 10px;
+    color: white;
+  }
 
-    #blocoProjetos1{
-        display: flex;
-        justify-content: space-around;
-    }
+  #textosHeader h3:last-child {
+    margin-top: 10px;
+  }
 
-    #blocoProjetos2{
-        display: flex;
-        justify-content: space-around;
-    }
+  main {
+    margin-top: 18px;
+  }
 
-    #blocoProjetos3{
-        display: flex;
-        justify-content: space-around;
-    }
+  #trajetoria h1 {
+    text-align: center;
+    font-size: 2.2em;
+  }
 
-    #projetos h1{
-        text-align: center;
-        font-size: 2.2em;
-        padding-bottom: 18px;
-    }
+  #trajetoriaCorpo {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 18px;
+  }
 
-    .projetoExemplos{
-        margin-bottom: 30px;
-        max-width: 410px;
-        height: 240px;
-        background-color: rgb(8, 114, 175);
-        border-radius: 0px 0px 10px 10px;
-        text-align: center;
-    }
+  #trajetoriaCorpo img {
+    width: 500px;
+    height: 500px;
+    margin-top: 15px;
+    border-radius: 50%;
+    padding-bottom: 15px;
+  }
 
-    .projetoExemplos img{
-        padding-top: 8px;
-        width: 390px;
-    }
+  #trajetoriaCorpo p {
+    text-align: justify;
+    max-width: 550px;
+    font-size: 1.4em;
+  }
 
-    .projetoExemplos a{
-        text-decoration: none;
-        color: white;
-    }
+  #projetos {
+    margin-top: 18px;
+  }
+
+  #blocoProjetos1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #blocoProjetos2 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #blocoProjetos3 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #blocoProjetos4 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #projetos h1 {
+    text-align: center;
+    font-size: 2.2em;
+    padding-bottom: 18px;
+  }
+
+  .projetoExemplos {
+    margin-bottom: 30px;
+    max-width: 410px;
+    height: 240px;
+    background-color: rgb(8, 114, 175);
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+  }
+
+  .projetoExemplos img {
+    padding-top: 8px;
+    width: 390px;
+  }
+
+  .projetoExemplos a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 @media screen and (max-width: 1440px) {
-    html{
-        overflow-x: hidden;
-    }
+  html {
+    overflow-x: hidden;
+  }
 
-    header{
-        width: 100vw;
-        background-image: url("../imagens/programacao.jpg");
-        background-position: center left;
-        height: 270px;
-    }
-    
-    #textosHeader{
-        padding-top: 65px;
-        padding-left: 70px;
-        color: white;
-    }
+  header {
+    width: 100vw;
+    background-image: url("../imagens/programacao.jpg");
+    background-position: center left;
+    height: 270px;
+  }
 
-    #textosHeader h1{
-        font-size: 2.6em;
-    }
+  #textosHeader {
+    padding-top: 65px;
+    padding-left: 70px;
+    color: white;
+  }
 
-    #textosHeader h3{
-        font-size: 1.4em;
-    }
-    
-    #icons{
-        margin-top: 10px;
-    }
-    
-    #icons i{
-        padding-right: 10px;
-        color: white;
-    }
-    
-    #textosHeader h3:last-child{
-        margin-top: 10px;
-    }
-    
-    main{
-        margin-top: 18px;
-    }
-    
-    #trajetoria h1{
-        text-align: center;
-        font-size: 2.2em;
-    }
+  #textosHeader h1 {
+    font-size: 2.6em;
+  }
 
-    #trajetoriaCorpo{
-        display: flex;
-        justify-content: space-around;
-        justify-items: center;
-        margin-top: 18px;
-    }
-    
-    #trajetoriaCorpo img{
-        width: 290px;
-        height: 290px;
-        margin-top: 15px;
-        border-radius: 50%;
-        padding-bottom: 15px;
-    }
+  #textosHeader h3 {
+    font-size: 1.4em;
+  }
 
-    #trajetoriaCorpo p{
-        text-align: justify;
-        max-width: 550px;
-        font-size: 1.2em;
-    }
+  #icons {
+    margin-top: 10px;
+  }
 
-    #projetos{
-        margin-top: 18px;
-    }
+  #icons i {
+    padding-right: 10px;
+    color: white;
+  }
 
-    #blocoProjetos1{
-        display: flex;
-        justify-content: space-around;
-    }
+  #textosHeader h3:last-child {
+    margin-top: 10px;
+  }
 
-    #blocoProjetos2{
-        display: flex;
-        justify-content: space-around;
-    }
+  main {
+    margin-top: 18px;
+  }
 
-    #blocoProjetos3{
-        display: flex;
-        justify-content: space-around;
-    }
+  #trajetoria h1 {
+    text-align: center;
+    font-size: 2.2em;
+  }
 
-    #projetos h1{
-        text-align: center;
-        font-size: 2.2em;
-        padding-bottom: 18px;
-    }
+  #trajetoriaCorpo {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 18px;
+  }
 
-    .projetoExemplos{
-        margin-bottom: 30px;
-        max-width: 340px;
-        height: 200px;
-        background-color: rgb(8, 114, 175);
-        border-radius: 0px 0px 10px 10px;
-        text-align: center;
-    }
+  #trajetoriaCorpo img {
+    width: 290px;
+    height: 290px;
+    margin-top: 15px;
+    border-radius: 50%;
+    padding-bottom: 15px;
+  }
 
-    .projetoExemplos img{
-        padding-top: 8px;
-        width: 320px;
-    }
+  #trajetoriaCorpo p {
+    text-align: justify;
+    max-width: 550px;
+    font-size: 1.2em;
+  }
 
-    .projetoExemplos a{
-        text-decoration: none;
-        color: white;
-    }
+  #projetos {
+    margin-top: 18px;
+  }
+
+  #blocoProjetos1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #blocoProjetos2 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #blocoProjetos3 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #blocoProjetos4 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #projetos h1 {
+    text-align: center;
+    font-size: 2.2em;
+    padding-bottom: 18px;
+  }
+
+  .projetoExemplos {
+    margin-bottom: 30px;
+    max-width: 340px;
+    height: 200px;
+    background-color: rgb(8, 114, 175);
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+  }
+
+  .projetoExemplos img {
+    padding-top: 8px;
+    width: 320px;
+  }
+
+  .projetoExemplos a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    html{
-        overflow-x: hidden;
-    }
+  html {
+    overflow-x: hidden;
+  }
 
-    header{
-        width: 100vw;
-        background-image: url("../imagens/programacao.jpg");
-        background-position: center left;
-        height: 250px;
-    }
-    
-    #textosHeader{
-        padding-top: 65px;
-        padding-left: 70px;
-        color: white;
-    }
+  header {
+    width: 100vw;
+    background-image: url("../imagens/programacao.jpg");
+    background-position: center left;
+    height: 250px;
+  }
 
-    #textosHeader h1{
-        font-size: 2.6em;
-    }
+  #textosHeader {
+    padding-top: 65px;
+    padding-left: 70px;
+    color: white;
+  }
 
-    #textosHeader h3{
-        font-size: 1.4em;
-    }
-    
-    #icons{
-        margin-top: 10px;
-    }
-    
-    #icons i{
-        padding-right: 10px;
-    }
-    
-    #textosHeader h3:last-child{
-        margin-top: 10px;
-    }
-    
-    main{
-        margin-top: 18px;
-    }
-    
-    #trajetoria{
-        text-align: center;
-    }
-    
-    #trajetoria h1{
-        font-size: 2.2em;
-    }
+  #textosHeader h1 {
+    font-size: 2.6em;
+  }
 
-    #trajetoriaCorpo{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 18px;
-    }
-    
-    #trajetoriaCorpo img{
-        width: 300px;
-        height: 300px;
-        margin-top: 15px;
-        border-radius: 50%;
-        padding-bottom: 15px;
-    }
+  #textosHeader h3 {
+    font-size: 1.4em;
+  }
 
-    #trajetoriaCorpo p{
-        text-align: justify;
-        max-width: 350px;
-        font-size: 1em;
-    }
+  #icons {
+    margin-top: 10px;
+  }
 
-    #projetos{
-        margin-top: 18px;
-    }
+  #icons i {
+    padding-right: 10px;
+  }
 
-    #blocoProjetos1{
-        display: flex;
-        justify-content: space-around;
-    }
+  #textosHeader h3:last-child {
+    margin-top: 10px;
+  }
 
-    #blocoProjetos2{
-        display: flex;
-        justify-content: space-around;
-    }
+  main {
+    margin-top: 18px;
+  }
 
-    #blocoProjetos3{
-        display: flex;
-        justify-content: space-around;
-    }
+  #trajetoria {
+    text-align: center;
+  }
 
-    #projetos h1{
-        text-align: center;
-        font-size: 2.2em;
-        padding-bottom: 18px;
-    }
+  #trajetoria h1 {
+    font-size: 2.2em;
+  }
 
-    .projetoExemplos{
-        margin-bottom: 18px;
-        max-width: 230px;
-        height: 150px;
-        background-color: rgb(8, 114, 175);
-        border-radius: 0px 0px 10px 10px;
-        text-align: center;
-    }
+  #trajetoriaCorpo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 18px;
+  }
 
-    .projetoExemplos img{
-        padding-top: 5px;
-        width: 220px;
-    }
+  #trajetoriaCorpo img {
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
+    border-radius: 50%;
+    padding-bottom: 15px;
+  }
 
-    .projetoExemplos a{
-        text-decoration: none;
-        color: white;
-    }
+  #trajetoriaCorpo p {
+    text-align: justify;
+    max-width: 350px;
+    font-size: 1em;
+  }
+
+  #projetos {
+    margin-top: 18px;
+  }
+
+  #blocoProjetos1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #blocoProjetos2 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #blocoProjetos3 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #blocoProjetos4 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #projetos h1 {
+    text-align: center;
+    font-size: 2.2em;
+    padding-bottom: 18px;
+  }
+
+  .projetoExemplos {
+    margin-bottom: 18px;
+    max-width: 230px;
+    height: 150px;
+    background-color: rgb(8, 114, 175);
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+  }
+
+  .projetoExemplos img {
+    padding-top: 5px;
+    width: 220px;
+  }
+
+  .projetoExemplos a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    html{
-        overflow-x: hidden;
-    }
+  html {
+    overflow-x: hidden;
+  }
 
-    header{
-        width: 100vw;
-        background-image: url("../imagens/programacao.jpg");
-        background-position: center left;
-        height: 250px;
-    }
-    
-    #textosHeader{
-        padding-top: 65px;
-        padding-left: 70px;
-        color: white;
-    }
+  header {
+    width: 100vw;
+    background-image: url("../imagens/programacao.jpg");
+    background-position: center left;
+    height: 250px;
+  }
 
-    #textosHeader h1{
-        font-size: 2.6em;
-    }
+  #textosHeader {
+    padding-top: 65px;
+    padding-left: 70px;
+    color: white;
+  }
 
-    #textosHeader h3{
-        font-size: 1.4em;
-    }
-    
-    #icons{
-        margin-top: 10px;
-    }
-    
-    #icons i{
-        padding-right: 10px;
-    }
-    
-    #textosHeader h3:last-child{
-        margin-top: 10px;
-    }
-    
-    main{
-        margin-top: 18px;
-    }
-    
-    #trajetoria{
-        text-align: center;
-    }
-    
-    #trajetoria h1{
-        font-size: 2.2em;
-    }
+  #textosHeader h1 {
+    font-size: 2.6em;
+  }
 
-    #trajetoriaCorpo{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 18px;
-    }
-    
-    #trajetoriaCorpo img{
-        width: 300px;
-        height: 300px;
-        margin-top: 15px;
-        border-radius: 50%;
-        padding-bottom: 15px;
-    }
+  #textosHeader h3 {
+    font-size: 1.4em;
+  }
 
-    #trajetoriaCorpo p{
-        text-align: justify;
-        max-width: 350px;
-        font-size: .9em;
-    }
+  #icons {
+    margin-top: 10px;
+  }
 
-    #projetos{
-        margin-top: 18px;
-    }
+  #icons i {
+    padding-right: 10px;
+  }
 
-    #blocoProjetos1{
-        display: flex;
-        justify-content: space-around;
-    }
+  #textosHeader h3:last-child {
+    margin-top: 10px;
+  }
 
-    #blocoProjetos2{
-        display: flex;
-        justify-content: space-around;
-    }
+  main {
+    margin-top: 18px;
+  }
 
-    #blocoProjetos3{
-        display: flex;
-        justify-content: space-around;
-    }
+  #trajetoria {
+    text-align: center;
+  }
 
-    #projetos h1{
-        text-align: center;
-        font-size: 2.2em;
-        padding-bottom: 18px;
-    }
+  #trajetoria h1 {
+    font-size: 2.2em;
+  }
 
-    .projetoExemplos{
-        margin-bottom: 18px;
-        max-width: 210px;
-        height: 132px;
-        background-color: rgb(8, 114, 175);
-        border-radius: 0px 0px 10px 10px;
-        text-align: center;
-    }
+  #trajetoriaCorpo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 18px;
+  }
 
-    .projetoExemplos img{
-        padding-top: 5px;
-        width: 200px;
-    }
+  #trajetoriaCorpo img {
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
+    border-radius: 50%;
+    padding-bottom: 15px;
+  }
 
-    .projetoExemplos a{
-        text-decoration: none;
-        color: white;
-    }
+  #trajetoriaCorpo p {
+    text-align: justify;
+    max-width: 350px;
+    font-size: 0.9em;
+  }
+
+  #projetos {
+    margin-top: 18px;
+  }
+
+  #blocoProjetos1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #blocoProjetos2 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #blocoProjetos3 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #blocoProjetos4 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #projetos h1 {
+    text-align: center;
+    font-size: 2.2em;
+    padding-bottom: 18px;
+  }
+
+  .projetoExemplos {
+    margin-bottom: 18px;
+    max-width: 210px;
+    height: 132px;
+    background-color: rgb(8, 114, 175);
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+  }
+
+  .projetoExemplos img {
+    padding-top: 5px;
+    width: 200px;
+  }
+
+  .projetoExemplos a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 @media screen and (max-width: 650px) {
-    header{
-        width: 100vw;
-        background-image: url("../imagens/programacao.jpg");
-        background-position: center center;
-        height: 220px;
-    }
-    
-    #textosHeader{
-        padding-top: 45px;
-        padding-left: 25px;
-        color: white;
-    }
+  header {
+    width: 100vw;
+    background-image: url("../imagens/programacao.jpg");
+    background-position: center center;
+    height: 220px;
+  }
 
-    #textosHeader h3{
-        font-size: 1.2em;
-    }
+  #textosHeader {
+    padding-top: 45px;
+    padding-left: 25px;
+    color: white;
+  }
 
-    #textosHeader h1{
-        font-size: 2.2em;
-    }
-    
-    #icons{
-        margin-top: 10px;
-    }
-    
-    #icons i{
-        padding-right: 10px;
-    }
-    
-    #textosHeader h3:last-child{
-        margin-top: 10px;
-    }
-    
-    main{
-        margin-top: 18px;
-    }
-    
-    #trajetoria{
-        text-align: center;
-    }
-    
-    #trajetoria h1{
-        font-size: 1.6em;
-    }
+  #textosHeader h3 {
+    font-size: 1.2em;
+  }
 
-    #trajetoriaCorpo{
-        display: block;
-    }
-    
-    #trajetoriaCorpo img{
-        width: 170px;
-        height: 170px;
-        margin-top: 15px;
-        border-radius: 50%;
-        padding-bottom: 15px;
-    }
+  #textosHeader h1 {
+    font-size: 2.2em;
+  }
 
-    #trajetoriaCorpo p{
-        margin: auto;
-        text-align: justify;
-        max-width: 350px;
-    }
+  #icons {
+    margin-top: 10px;
+  }
 
-    #projetos{
-        text-align: center;
-        margin-top: 18px;
-    }
+  #icons i {
+    padding-right: 10px;
+  }
 
-    #projetos h1{
-        font-size: 1.6em;
-        padding-bottom: 18px;
-    }
+  #textosHeader h3:last-child {
+    margin-top: 10px;
+  }
 
-    #blocoProjetos1{
-        display: block;
-    }
+  main {
+    margin-top: 18px;
+  }
 
-    #blocoProjetos2{
-        display: block;
-    }
+  #trajetoria {
+    text-align: center;
+  }
 
-    #blocoProjetos3{
-        display: block;
-    }
+  #trajetoria h1 {
+    font-size: 1.6em;
+  }
 
-    .projetoExemplos{
-        margin: auto;
-        margin-bottom: 18px;
-        max-width: 260px;
-        height: 159px;
-        background-color: rgb(8, 114, 175);
-        border-radius: 0px 0px 10px 10px;
-    }
+  #trajetoriaCorpo {
+    display: block;
+  }
 
-    .projetoExemplos img{
-        padding-top: 5px;
-        width: 250px;
-    }
+  #trajetoriaCorpo img {
+    width: 170px;
+    height: 170px;
+    margin-top: 15px;
+    border-radius: 50%;
+    padding-bottom: 15px;
+  }
 
-    .projetoExemplos a{
-        text-decoration: none;
-        color: white;
-    }
+  #trajetoriaCorpo p {
+    margin: auto;
+    text-align: justify;
+    max-width: 350px;
+  }
+
+  #projetos {
+    text-align: center;
+    margin-top: 18px;
+  }
+
+  #projetos h1 {
+    font-size: 1.6em;
+    padding-bottom: 18px;
+  }
+
+  #blocoProjetos1 {
+    display: block;
+  }
+
+  #blocoProjetos2 {
+    display: block;
+  }
+
+  #blocoProjetos3 {
+    display: block;
+  }
+
+  #blocoProjetos4 {
+    display: block;
+  }
+
+  .projetoExemplos {
+    margin: auto;
+    margin-bottom: 18px;
+    max-width: 260px;
+    height: 159px;
+    background-color: rgb(8, 114, 175);
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .projetoExemplos img {
+    padding-top: 5px;
+    width: 250px;
+  }
+
+  .projetoExemplos a {
+    text-decoration: none;
+    color: white;
+  }
 }
