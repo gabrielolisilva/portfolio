@@ -45,7 +45,7 @@
   }
 
   main {
-    margin-top: 18px;
+    margin-top: 47px;
   }
 
   #trajetoria h1 {
@@ -57,7 +57,7 @@
     display: flex;
     justify-content: space-around;
     justify-items: center;
-    margin-top: 18px;
+    margin-top: 38px;
   }
 
   #trajetoriaCorpo img {
@@ -75,7 +75,7 @@
   }
 
   #projetos {
-    margin-top: 18px;
+    margin-top: 60px;
   }
 
   #blocoProjetos1 {
@@ -101,7 +101,7 @@
   #projetos h1 {
     text-align: center;
     font-size: 2.2em;
-    padding-bottom: 18px;
+    padding-bottom: 48px;
   }
 
   .projetoExemplos {
@@ -164,7 +164,7 @@
   }
 
   main {
-    margin-top: 18px;
+    margin-top: 35px;
   }
 
   #trajetoria h1 {
@@ -194,7 +194,7 @@
   }
 
   #projetos {
-    margin-top: 18px;
+    margin-top: 32px;
   }
 
   #blocoProjetos1 {
@@ -220,7 +220,7 @@
   #projetos h1 {
     text-align: center;
     font-size: 2.2em;
-    padding-bottom: 18px;
+    padding-bottom: 32px;
   }
 
   .projetoExemplos {
@@ -282,7 +282,7 @@
   }
 
   main {
-    margin-top: 18px;
+    margin-top: 32px;
   }
 
   #trajetoria {
@@ -314,7 +314,7 @@
   }
 
   #projetos {
-    margin-top: 18px;
+    margin-top: 32px;
   }
 
   #blocoProjetos1 {
@@ -340,7 +340,7 @@
   #projetos h1 {
     text-align: center;
     font-size: 2.2em;
-    padding-bottom: 18px;
+    padding-bottom: 32px;
   }
 
   .projetoExemplos {
