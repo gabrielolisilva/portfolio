@@ -196,6 +196,22 @@ footer a {
   color: inherit;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: white;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 0.5px solid rgba(37, 37, 71, 255);
+  color: rgba(37, 37, 71, 255);
+  transform: rotate(-90deg);
+}
+
 @media screen and (min-width: 800px) {
   header {
     height: 250px;
